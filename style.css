@@ -1,0 +1,108 @@
+/* ------------------------ */
+/* GENERAL STYLES */
+/* REUSE */
+/* ------------------------ */
+
+/* COLOR */
+/* #4263eb */
+/* #3b5bdb */
+/* #099268 */
+/* #087f5b */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.h1-border {
+  width: 120px;
+  border-bottom: 5px solid #099268;
+}
+
+.icon {
+  stroke: #099268;
+  height: 24px;
+  margin-right: 20px;
+}
+
+/* HEADER */
+header {
+  margin-bottom: 80px;
+  margin-top: 48px;
+}
+h1 {
+  margin-bottom: 24px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+/* IMAGE */
+.image1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+  box-shadow: 0 20px 30px 0 rgb(0 0 0 / 7%);
+}
+
+p {
+  font-size: 24px;
+}
+
+input[type="file"] {
+  visibility: hidden;
+}
+
+label {
+  border-radius: 15px;
+  background-color: #099268;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
+.upload {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  border: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #099268;
+}
+.btn-big {
+  border-radius: 9px;
+  font-weight: 500;
+  font-size: 28px;
+  padding: 1.2rem 2.4rem;
+}
+.btn-small {
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 12px 20px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #087f5b;
+}
